@@ -1,0 +1,32 @@
+			<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<title>Instagram Downloader</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico/css/pico.classless.min.css">
+		<link rel="stylesheet" href="https://css.gg/css?=website|loadbar-alt|check|info"><link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header align="center">
+			<h1>Instagram Downloader</h1>
+		</header>
+
+		<main class="container">
+			<form>
+				<label for="aFormat">Select Downloader</label>
+				<select id="aFormat">
+					<option value="jpg">JPG</option>
+					<option value="mp3">MP3</option>
+					<option value="mp4">MP4</option>
+				</select>
+				<br><br>
+				<input type="url" id="url" placeholder="Input URL here" required>
+				<button type="submit" class="submitBtn">Download</button>
+			</form>
+			<div id="status"></div>
+		</main>
+
+	<script defer src="script.js"></script>
+	</body>
+</html>
